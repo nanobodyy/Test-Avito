@@ -47,33 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9957FB3D25B84E850097254B /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				9957FB3F25B84EAE0097254B /* View */,
-				9957FB4025B84EB80097254B /* Controller */,
-				99BBEB1F25B2F8E500668F69 /* NetworkService */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		9957FB3F25B84EAE0097254B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				997A118225B09A1600777B3A /* LaunchScreen.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9957FB4025B84EB80097254B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				997A117925B09A1400777B3A /* SceneDelegate.swift */,
-				997A117725B09A1400777B3A /* AppDelegate.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		997A116B25B09A1400777B3A = {
 			isa = PBXGroup;
 			children = (
@@ -93,8 +66,13 @@
 		997A117625B09A1400777B3A /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				9957FB3D25B84E850097254B /* Application */,
-				997A119F25B19AF700777B3A /* Choice */,
+				997A117925B09A1400777B3A /* SceneDelegate.swift */,
+				997A117725B09A1400777B3A /* AppDelegate.swift */,
+				99BBEB1F25B2F8E500668F69 /* NetworkService */,
+				99BBEB0E25B2EE6B00668F69 /* Model */,
+				99BBEB0F25B2EE8000668F69 /* Controller */,
+				997A118C25B09A2800777B3A /* View */,
+				997A118225B09A1600777B3A /* LaunchScreen.storyboard */,
 				997A118025B09A1600777B3A /* Assets.xcassets */,
 				997A118525B09A1600777B3A /* Info.plist */,
 			);
@@ -108,16 +86,6 @@
 				997A119825B0B0E200777B3A /* ChoiceCell.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		997A119F25B19AF700777B3A /* Choice */ = {
-			isa = PBXGroup;
-			children = (
-				99BBEB0E25B2EE6B00668F69 /* Model */,
-				997A118C25B09A2800777B3A /* View */,
-				99BBEB0F25B2EE8000668F69 /* Controller */,
-			);
-			path = Choice;
 			sourceTree = "<group>";
 		};
 		99BBEB0E25B2EE6B00668F69 /* Model */ = {
