@@ -3,4 +3,5 @@
 Выполнено согласно тз https://github.com/avito-tech/internship.
 Не использовались storyboard и внешние зависимости. Архитектура MVC-N.
 # Результат: 
-![](https://github.com/nanobodyy/Test-Avito/blob/main/result.gif)
+![result (1)](https://user-images.githubusercontent.com/52631476/111636916-fb789900-8809-11eb-8761-e2dda782e0ee.gif)
+
